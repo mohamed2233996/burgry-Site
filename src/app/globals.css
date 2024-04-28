@@ -10,9 +10,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0; */
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
@@ -32,13 +32,27 @@
 
 .primaryBtn {
   background-color: #ffba00;
-  padding: 6px 12px;
+  padding: 10px 18px;
   border-radius: 2px;
   cursor: pointer;
 }
 
 .primaryBtn:hover {
-  box-shadow: 0px 0px 6px 2px #ffc22d;
+  box-shadow: 0px 0px 15px 2px #ffc22d;
+}
+
+
+.selectBtn {
+  background-color: #171717;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.selectBtn:hover, .selectBtn:active {
+  background-color: #ffba00;
+  color: black;
 }
 
 .headText::after {
