@@ -65,7 +65,7 @@ const Menu = () => {
                     {
                         fileredProductList.map((product) => (
                             <div key={product.id} className='overflow-hidden my-2'>
-                                <div className='overflow-hidden rounded-xl h-[220px] bg-[#171717] flex justify-center'>
+                                <div className='overflow-hidden rounded-xl h-[220px] bg-boxColor flex justify-center'>
                                     <img
                                         className='my-6'
                                         src={`/${product.image}`}

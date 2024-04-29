@@ -1,3 +1,4 @@
+import App from "./components/app";
 import Header from "./components/header";
 import Intro from "./components/intro";
 import Intro2 from "./components/intro2";
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       <Menu />
       <Video />
+      <App />
     </>
   );
 }

@@ -33,7 +33,7 @@ const Intro2 = () => {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-20">
-                    <div className="flex md:flex-row justify-between items-center bg-[#171717] rounded-lg p-4">
+                    <div className="flex flex-col sm:flex-row justify-between items-center bg-boxColor rounded-lg p-4">
                         <div className='mr-4'>
                             <h2 className='text-white font-black text-2xl'>GET A 10% DISCOUNT ON YOUR FIRST ORDER</h2>
                             <p className='text-[16px] text-gray-500 mt-5'>Place your first order to get the discount immediately</p>
@@ -43,9 +43,10 @@ const Intro2 = () => {
                             src='/intro burger.png'
                             alt='burger'
                             width={200}
+                            className='order-[-1] sm:order-1 mb-3 sm:mb-0'
                             height={200} />
                     </div>
-                    <div className="flex md:flex-row justify-between items-center bg-[#171717] rounded-lg p-4">
+                    <div className="flex flex-col sm:flex-row justify-between items-center bg-boxColor rounded-lg p-4">
                         <div className='mr-4'>
                             <h2 className='text-white font-black text-2xl'>GET A 10% DISCOUNT ON YOUR FIRST ORDER</h2>
                             <p className='text-[16px] text-gray-500 mt-5'>Place your first order to get the discount immediately</p>
@@ -55,6 +56,7 @@ const Intro2 = () => {
                             src='/intro cola.png'
                             alt='cola'
                             width={200}
+                            className='order-[-1] sm:order-1 mb-3 sm:mb-0'
                             height={200} />
                     </div>
                 </div>

@@ -13,7 +13,7 @@ const Video = () => {
                     controls={false} />
                 <div className="overblack w-full absolute h-full bg-[#000000ab]" />
                 <div className="container m-auto relative">
-                    <div className='flex flex-col items-center justify-center text-center mt-24'>
+                    <div className='flex flex-col items-center justify-center text-center'>
                         <a href="#" className='bg-primary rounded-full p-6 flex justify-center items-center mb-4'>
                             <FaPlay className='text-white text-[24px]'style={{transform:"translateX(8%)"}}/>
                         </a>
