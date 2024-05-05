@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Intro from "./components/intro";
 import Intro2 from "./components/intro2";
 import Menu from "./components/menu/menu";
+import Review from "./components/review";
 import Video from "./components/video";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Menu />
       <Video />
       <App />
+      <Review />
     </>
   );
 }
