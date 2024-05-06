@@ -47,7 +47,7 @@ const Menu = () => {
                 <div className="btnCatgery flex flex-col sm:flex-row justify-center mt-8">
                     <button className='selectBtn mx-8 mb-2 sm:mb-0' onClick={resetCategory}>ALL</button>
                     {categorie.map((category) => (
-                        <button className='selectBtn mx-8 mb-2 sm:mb-0' onClick={() => {
+                        <button className='selectBtn mx-8 mb-2 sm:mb-0' key={category} onClick={() => {
                             if (selectedCategories.includes(category)) {
                                 removeCategorie(category);
                             } else {

@@ -13,7 +13,8 @@ const Intro = () => {
                         src='/INTRO.png'
                         alt='burger'
                         width={350}
-                        height={400} />
+                        height={400}
+                        priority={false}/>
                     </div>
                     <div className="flex flex-col justify-center items-center md:items-start w-1/2">
                         <h1 className='headText text-white text-center md:text-start font-black my-3 text-5xl md:after:mx-0'>ENJOY BURGRY MAKE YOUR TUMMY HAPPY</h1>
