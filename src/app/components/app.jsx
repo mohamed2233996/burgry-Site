@@ -18,7 +18,7 @@ const App = () => {
                     </div>
                     <div className='app-text'>
                         <h1 className='headText text-white font-black my-3 text-4xl after:mx-0'>DON'T WORRY ! YOU CAN ORDER YOUR FOOD JUST BY PHONE</h1>
-                        <p className='text-gray-300 text-[17px]'>You can now request an order through our new application, with constant support for the application, and you will receive the order as quickly as possible</p>
+                        <p className='text-gray-300 text-[17px]'>You can now request an order through our new application with constant support for the application and you will receive the order as quickly as possible</p>
                         <div className='flex flex-col'>
                             <div className='flex flex-row bg-boxColor rounded-lg overflow-hidden px-3 py-2 mt-8'>
                                 <div className='bg-primary p-4 rounded-lg mr-4 my-2'>

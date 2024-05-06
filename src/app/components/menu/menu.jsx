@@ -43,7 +43,7 @@ const Menu = () => {
         <div className='menu py-10 bg-black'>
             <div className='container m-auto'>
                 <h1 className='text-white font-black text-4xl headText text-center after:mt-[20px]'>OUR BEST MENU</h1>
-                <p className='text-center mt-4 text-gray-400 text-[16px]'>In this section, all the dishes and items that belong to you are available</p>
+                <p className='text-center mt-4 text-gray-400 text-[16px]'>In this section all the dishes and items that belong to you are available</p>
                 <div className="btnCatgery flex flex-col sm:flex-row justify-center mt-8">
                     <button className='selectBtn mx-8 mb-2 sm:mb-0' onClick={resetCategory}>ALL</button>
                     {categorie.map((category) => (

@@ -29,7 +29,7 @@ const Footer = () => {
                     <h6 className="footer-title">Contact</h6>
                     <a href='tel:+201025402633' className="conect-item link hover:text-primary"><FaPhoneAlt className='text-primary mr-4' /> 01025402633</a>
                     <a href='mailto: medomano771@email.com' className="conect-item link hover:text-primary"><FaMessage className='text-primary mr-4' /> medomano771@gmail.com</a>
-                    <a href='https://maps.app.goo.gl/JDh3Ko65vAKo7gzX9' className="conect-item link hover:text-primary"><FaLocationDot className='text-primary mr-4' /> Menofia ,Egypt</a>
+                    <a href='https://maps.app.goo.gl/JDh3Ko65vAKo7gzX9' className="conect-item link hover:text-primary"><FaLocationDot className='text-primary mr-4' /> Menofia Egypt</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title">FOLLOW US</h6>
