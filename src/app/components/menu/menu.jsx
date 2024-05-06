@@ -7,7 +7,6 @@ import Image from 'next/image';
 
 const Menu = () => {
     const [selectedCategories, setSelectedCategories] = useState([]);
-    console.log(selectedCategories)
     const removeCategorie = (category) => {
         if (selectedCategories.includes(category)) {
             const removedList = selectedCategories.filter((item) => (item !== category));
@@ -17,7 +16,6 @@ const Menu = () => {
 
     const addCategorie = (category) => {
         if (!selectedCategories.includes(category)) {
-            console.log(category)
             setSelectedCategories(prev => ([category]))
         }
     }
@@ -29,7 +27,6 @@ const Menu = () => {
 
     //////////
     const [fileredProductList, setFilteredProductList] = useState([]);
-    console.log(fileredProductList)
 
     useEffect(() => {
         if (selectedCategories.length === 0) {
