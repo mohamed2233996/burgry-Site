@@ -8,6 +8,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        updown: {
+          '0%, 100%': {transform: 'translateY(0px)'},
+          '50%': { transform: 'translateY(20px)' },
+        }
+      },
+      animation: {
+        updown: 'updown 2s ease infinite',
+      },
       backgroundImage: {
         "burger-intro":"url('/download1.png')",
         "snack-intro":"url('/download2.png')",

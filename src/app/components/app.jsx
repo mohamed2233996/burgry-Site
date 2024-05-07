@@ -14,7 +14,8 @@ const App = () => {
                             src='/app-phone.jpg'
                             alt='burger'
                             width={350}
-                            height={400} />
+                            height={400}
+                            className='hover:animate-updown'/>
                     </div>
                     <div className='app-text'>
                         <h1 className='headText text-white font-black my-3 text-4xl after:mx-0'>DON&apos;T WORRY ! YOU CAN ORDER YOUR FOOD JUST BY PHONE</h1>

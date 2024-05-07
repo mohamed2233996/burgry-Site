@@ -9,7 +9,7 @@ const Intro = () => {
         <div className='bg-gradient-to-b from-opacityColorLinearStart to-opacityColorLinearEnd py-52'>
             <div className='container m-auto'>
                 <div className="flex md:flex-row flex-col items-center">
-                    <div className='mb-6 md:m-0 w-1/2 flex justify-center'><Image
+                    <div className='mb-6 md:m-0 w-1/2 flex justify-center animate-updown animate-infinite animate-duration-[2000ms] animate-delay-[2000ms] animate-ease-linear'><Image
                         src='/intro.png'
                         alt='burger'
                         width={350}

@@ -1,5 +1,6 @@
 import { Platypi } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const platypi = Platypi({
   display: "swap",
@@ -15,6 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <title>BURGER</title>
+        <link rel="icon" href="/burger.png" sizes="16x16" />
+      </head>
       <body className={platypi.className}>{children}</body>
     </html>
   );

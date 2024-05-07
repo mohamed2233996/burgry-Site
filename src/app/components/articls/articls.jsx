@@ -14,9 +14,9 @@ const Articls = () => {
                     {articls.map((item) => {
                         return (
                             <div key={item.id} className='flex flex-col mb-6 lg:mb-0 rounded-lg overflow-hidden'>
-                                <a href='' className='article-img h-[220px] overflow-hidden relative'>
+                                <a href='' className='hover:brightness-125 article-img h-[220px] overflow-hidden relative'>
                                     <Image src={item.image} alt={"article"} fill/>
-                                    <span className='absolute bg-primary bottom-0 left-0 rounded-tr-sm px-2 pb-1 font-bold'>{item.category}</span>
+                                    <span className=' absolute bg-primary bottom-0 left-0 rounded-tr-sm px-2 pb-1 font-bold'>{item.category}</span>
                                 </a>
                                 <div className='article-content mt-4'>
                                     <h3 className='text-white text-xl font-black'>{item.title}</h3>
