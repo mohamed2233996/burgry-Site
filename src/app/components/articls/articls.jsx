@@ -4,7 +4,6 @@ import { articls } from "./data.js"
 import { FaArrowRight } from "react-icons/fa";
 
 const Articls = () => {
-    console.log(articls)
     return (
         <div className='py-20 bg-black'>
             <div className="container m-auto">
