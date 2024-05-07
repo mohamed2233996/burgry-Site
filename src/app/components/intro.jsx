@@ -10,7 +10,7 @@ const Intro = () => {
             <div className='container m-auto'>
                 <div className="flex md:flex-row flex-col items-center">
                     <div className='mb-6 md:m-0 w-1/2 flex justify-center'><Image
-                        src='/INTRO.png'
+                        src='/intro.png'
                         alt='burger'
                         width={350}
                         height={400}
