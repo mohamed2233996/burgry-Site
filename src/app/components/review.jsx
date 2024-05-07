@@ -47,7 +47,7 @@ const Review = () => {
         <div className='py-20 bg-boxColor'>
             <div className="container m-auto">
                 <h1 className='text-white font-black text-4xl headText text-center after:mt-[20px]'>CUSTOMER REVIEW</h1>
-                <p className='text-center mt-4 text-gray-400 text-[16px]'>In this section, There are opinions of important and distinguished visitors on our website</p>
+                <p className='text-center mt-4 text-gray-400 text-[16px]'>In this section There are opinions of important and distinguished visitors on our website</p>
             </div>
             <div className="overflow-hidden w-full flex items-center justify-center my-8"
                 ref={emblaRef}>
