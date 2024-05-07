@@ -12,9 +12,6 @@ module.exports = {
         'burger-intro':"url('/download1.png')",
         'snack-intro':"url('/download2.png')",
         'drink-intro':"url('/download3.png')",
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         'offerbg': "url('/offer.jpg')",
       },
       colors: {
