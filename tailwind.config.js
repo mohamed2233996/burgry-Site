@@ -14,14 +14,14 @@ module.exports = {
         "drink-intro":"url('/download3.png')",
         "offerbg": "url('/offer.jpg')",
       },
-      // colors: {
-      //   primary: "#ffba00",
-      //   black: "#000000",
-      //   boxColor:"#171717",
+      colors: {
+        primary: "#ffba00",
+        black: "#000000",
+        boxColor:"#171717",
       //   opacityColor: "rgba(0, 0, 0, 0.75);",
       //   opacityColorLinearStart: "rgba(0,0,0,0.75) 50%;",
       //   opacityColorLinearEnd: "rgba(0,0,0,1) 100%;",
-      // }
+      }
     },
   },
   plugins: [daisyui],
