@@ -1,6 +1,6 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,11 +17,11 @@
 }
 
 
-/* @layer utilities {
+@layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-} */
+}
 
 .Banner{
   background-image: url("../../public/dark-wooden-background-with-flour-dust-e1627971410843.jpg");
