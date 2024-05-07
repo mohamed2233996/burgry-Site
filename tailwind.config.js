@@ -8,12 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "burger-intro":"url('/download1.png')",
-        "snack-intro":"url('/download2.png')",
-        "drink-intro":"url('/download3.png')",
-        "offerbg": "url('/offer.jpg')",
-      },
+      // backgroundImage: {
+      //   "burger-intro":"url('/download1.png')",
+      //   "snack-intro":"url('/download2.png')",
+      //   "drink-intro":"url('/download3.png')",
+      //   "offerbg": "url('/offer.jpg')",
+      // },
       colors: {
         primary: "#ffba00",
         black: "#000000",
