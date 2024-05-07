@@ -3,6 +3,7 @@ import React from 'react';
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import { FaQuoteRight } from "react-icons/fa";
+import Image from 'next/image';
 
 const Review = () => {
     const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
@@ -59,7 +60,7 @@ const Review = () => {
                                 <div className='mt-4 flex flex-row justify-between items-center'>
                                     <div className='flex flex-row items-center'>
                                         <div className='overflow-hidden w-[100px] h-[100px] rounded-full'>
-                                            <img className="" src={item.url} alt="" width={200} height={200} />
+                                            <Image className="" src={item.url} alt="" width={200} height={200} />
                                         </div>
                                         <div className='ml-4'>
                                             <h3 className='text-white'>{item.Name}</h3>

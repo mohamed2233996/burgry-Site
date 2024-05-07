@@ -34,7 +34,7 @@ const Menu = () => {
         } else {
             setFilteredProductList(products.filter((item) => (selectedCategories.includes(item.category))));
         }
-    }, [selectedCategories, products])
+    }, [selectedCategories])
 
 
 
@@ -63,7 +63,7 @@ const Menu = () => {
                         fileredProductList.map((product) => (
                             <div key={product.id} className='overflow-hidden my-2'>
                                 <div className='overflow-hidden rounded-xl h-[220px] bg-boxColor flex justify-center'>
-                                    <img
+                                    <Image
                                         className='my-6'
                                         src={`/${product.image}`}
                                         alt={product.name}

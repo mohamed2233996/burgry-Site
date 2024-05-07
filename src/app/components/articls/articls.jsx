@@ -2,6 +2,7 @@
 import React from 'react';
 import { articls } from "./data.js"
 import { FaArrowRight } from "react-icons/fa";
+import Image from 'next/image.js';
 
 const Articls = () => {
     return (
@@ -14,7 +15,7 @@ const Articls = () => {
                         return (
                             <div key={item.id} className='flex flex-col mb-6 lg:mb-0 rounded-lg overflow-hidden'>
                                 <a href='' className='article-img h-[220px] overflow-hidden relative'>
-                                    <img src={item.image} alt={"article"} />
+                                    <Image src={item.image} alt={"article"} fill/>
                                     <span className='absolute bg-primary bottom-0 left-0 rounded-tr-sm px-2 pb-1 font-bold'>{item.category}</span>
                                 </a>
                                 <div className='article-content mt-4'>
