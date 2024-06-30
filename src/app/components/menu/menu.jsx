@@ -40,7 +40,7 @@ const Menu = () => {
 
 
     return (
-        <div className='menu py-10 bg-black'>
+        <div className='menu py-10 bg-black' id="menu">
             <div className='container m-auto'>
                 <h1 className='text-white font-black text-4xl headText text-center after:mt-[20px]'>OUR BEST MENU</h1>
                 <p className='text-center mt-4 text-gray-400 text-[16px]'>In this section all the dishes and items that belong to you are available</p>

@@ -11,7 +11,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-            <footer className="footer p-10 bg-black text-white">
+            <footer className="footer p-10 bg-black text-white" id="conect">
                 <aside>
                     <a className="cursor-pointer text-2xl">
                         <h1 className='text-white font-extrabold'>Bur<span className='text-primary'>gry</span></h1>

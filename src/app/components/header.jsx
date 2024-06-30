@@ -12,8 +12,8 @@ const Header = () => {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 bg-black shadow rounded-box w-52">
                     <li className='text-white'><Link href="/">Home</Link></li>
                     <li className='text-white'><Link href="/about">About Us</Link></li>
-                    <li className='text-white'><Link href="/menu">Menu</Link></li>
-                    <li className='text-white'><Link href="/contact-us">Contact Us</Link></li>
+                    <li className='text-white'><Link href="#menu">Menu</Link></li>
+                    <li className='text-white'><Link href="#conect">Contact Us</Link></li>
                     </ul>
                 </div>
                 <a className="cursor-pointer pl-3 text-2xl">
